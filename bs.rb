@@ -4,6 +4,10 @@
 #
 # Bubble sort will take an array and sort it using the bubble sort method.
 
+
+
+
+
 def bubble_sort(array)
   n = array.length
 
