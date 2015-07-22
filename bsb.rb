@@ -1,8 +1,6 @@
+# Project 1: Bubble Sort by
+# The Odin Project - advanced building blocks
 # http://www.theodinproject.com/ruby-programming/advanced-building-blocks
-# July 21
-# Bubble sort_by method
-# Make a bubble sort method that accepts a block
-
 
 
 

@@ -1,9 +1,6 @@
+# Project 1: Bubble Sort
+# The Odin Project - advanced building blocks
 # http://www.theodinproject.com/ruby-programming/advanced-building-blocks
-# Bubble Sort
-# July 21
-#
-# Bubble sort will take an array and sort it using the bubble sort method.
-
 
 
 
