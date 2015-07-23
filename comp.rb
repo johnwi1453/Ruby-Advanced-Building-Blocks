@@ -5,7 +5,7 @@
 
 
 
-class Machine
+class Computer
   @@users = {}
 
   def initialize(username, password)
@@ -15,4 +15,19 @@ class Machine
   	@files = {}
   end
 
-  
+  def create(filename)
+  	time = Time.now
+  	@files[filename] = time
+  	puts "#{filename} was created by #{@username} at #{time}"
+  end
+
+  def Computer.get_users
+  	@@users
+  end
+end
+
+
+my_pc = Computer.new("john78", "password3")
+my_pc.create("ruby class practice.rb")
+
+puts "Users: #{Computer.get_users}"
